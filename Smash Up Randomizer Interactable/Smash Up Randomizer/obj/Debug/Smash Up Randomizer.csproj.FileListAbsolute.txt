@@ -1,0 +1,44 @@
+C:\Users\Jake\Documents\Jake's Stuff\Other\WPF Starting Off\Smash Up Randomizer\Smash Up Randomizer\bin\Debug\Smash Up Randomizer.exe.config
+C:\Users\Jake\Documents\Jake's Stuff\Other\WPF Starting Off\Smash Up Randomizer\Smash Up Randomizer\bin\Debug\Smash Up Randomizer.exe
+C:\Users\Jake\Documents\Jake's Stuff\Other\WPF Starting Off\Smash Up Randomizer\Smash Up Randomizer\bin\Debug\Smash Up Randomizer.pdb
+C:\Users\Jake\Documents\Jake's Stuff\Other\WPF Starting Off\Smash Up Randomizer\Smash Up Randomizer\obj\Debug\Smash Up Randomizer.csprojResolveAssemblyReference.cache
+C:\Users\Jake\Documents\Jake's Stuff\Other\WPF Starting Off\Smash Up Randomizer\Smash Up Randomizer\obj\Debug\Smash Up Randomizer.g.cs
+C:\Users\Jake\Documents\Jake's Stuff\Other\WPF Starting Off\Smash Up Randomizer\Smash Up Randomizer\obj\Debug\App.g.cs
+C:\Users\Jake\Documents\Jake's Stuff\Other\WPF Starting Off\Smash Up Randomizer\Smash Up Randomizer\obj\Debug\Smash Up Randomizer_MarkupCompile.cache
+C:\Users\Jake\Documents\Jake's Stuff\Other\WPF Starting Off\Smash Up Randomizer\Smash Up Randomizer\obj\Debug\Smash Up Randomizer_MarkupCompile.lref
+C:\Users\Jake\Documents\Jake's Stuff\Other\WPF Starting Off\Smash Up Randomizer\Smash Up Randomizer\obj\Debug\Smash Up Randomizer.baml
+C:\Users\Jake\Documents\Jake's Stuff\Other\WPF Starting Off\Smash Up Randomizer\Smash Up Randomizer\obj\Debug\Smash Up Randomizer.g.resources
+C:\Users\Jake\Documents\Jake's Stuff\Other\WPF Starting Off\Smash Up Randomizer\Smash Up Randomizer\obj\Debug\Smash_Up_Randomizer.Properties.Resources.resources
+C:\Users\Jake\Documents\Jake's Stuff\Other\WPF Starting Off\Smash Up Randomizer\Smash Up Randomizer\obj\Debug\Smash Up Randomizer.csproj.GenerateResource.Cache
+C:\Users\Jake\Documents\Jake's Stuff\Other\WPF Starting Off\Smash Up Randomizer\Smash Up Randomizer\obj\Debug\Smash Up Randomizer.exe
+C:\Users\Jake\Documents\Jake's Stuff\Other\WPF Starting Off\Smash Up Randomizer\Smash Up Randomizer\obj\Debug\Smash Up Randomizer.pdb
+C:\Users\jakec\OneDrive\Documents\Jake's Stuff\Other\Programs\Smash Up Randomizer\Smash Up Randomizer\bin\Debug\Smash Up Randomizer.exe.config
+C:\Users\jakec\OneDrive\Documents\Jake's Stuff\Other\Programs\Smash Up Randomizer\Smash Up Randomizer\obj\Debug\Smash Up Randomizer.exe
+C:\Users\jakec\OneDrive\Documents\Jake's Stuff\Other\Programs\Smash Up Randomizer\Smash Up Randomizer\obj\Debug\Smash Up Randomizer.pdb
+C:\Users\jakec\OneDrive\Documents\Jake's Stuff\Other\Programs\Smash Up Randomizer\Smash Up Randomizer\bin\Debug\Smash Up Randomizer.exe
+C:\Users\jakec\OneDrive\Documents\Jake's Stuff\Other\Programs\Smash Up Randomizer\Smash Up Randomizer\bin\Debug\Smash Up Randomizer.pdb
+C:\Users\jakec\OneDrive\Documents\Jake's Stuff\Other\Programs\Smash Up Randomizer\Smash Up Randomizer\obj\Debug\Smash Up Randomizer.g.cs
+C:\Users\jakec\OneDrive\Documents\Jake's Stuff\Other\Programs\Smash Up Randomizer\Smash Up Randomizer\obj\Debug\App.g.cs
+C:\Users\jakec\OneDrive\Documents\Jake's Stuff\Other\Programs\Smash Up Randomizer\Smash Up Randomizer\obj\Debug\Smash Up Randomizer_MarkupCompile.cache
+C:\Users\jakec\OneDrive\Documents\Jake's Stuff\Other\Programs\Smash Up Randomizer\Smash Up Randomizer\obj\Debug\Smash Up Randomizer_MarkupCompile.lref
+C:\Users\jakec\OneDrive\Documents\Jake's Stuff\Other\Programs\Smash Up Randomizer\Smash Up Randomizer\obj\Debug\Smash Up Randomizer.baml
+C:\Users\jakec\OneDrive\Documents\Jake's Stuff\Other\Programs\Smash Up Randomizer\Smash Up Randomizer\obj\Debug\Smash Up Randomizer.g.resources
+C:\Users\jakec\OneDrive\Documents\Jake's Stuff\Other\Programs\Smash Up Randomizer\Smash Up Randomizer\obj\Debug\Smash_Up_Randomizer.Properties.Resources.resources
+C:\Users\jakec\OneDrive\Documents\Jake's Stuff\Other\Programs\Smash Up Randomizer\Smash Up Randomizer\obj\Debug\Smash Up Randomizer.csproj.GenerateResource.Cache
+C:\Users\jakec\OneDrive\Documents\Jake's Stuff\Other\Programs\Smash Up Randomizer\Smash Up Randomizer\obj\Debug\Smash Up Randomizer.csprojAssemblyReference.cache
+C:\Users\jakec\OneDrive\Documents\Jake's Stuff\Other\Programs\Smash Up Randomizer\Smash Up Randomizer\obj\Debug\Smash Up Randomizer.csproj.CoreCompileInputs.cache
+C:\Users\Jake\Documents\Jake's Stuff\Other\Random Programs\Smash Up Randomizer Interactable\Smash Up Randomizer\bin\Debug\Smash Up Randomizer.exe.config
+C:\Users\Jake\Documents\Jake's Stuff\Other\Random Programs\Smash Up Randomizer Interactable\Smash Up Randomizer\obj\Debug\Smash Up Randomizer.exe
+C:\Users\Jake\Documents\Jake's Stuff\Other\Random Programs\Smash Up Randomizer Interactable\Smash Up Randomizer\obj\Debug\Smash Up Randomizer.pdb
+C:\Users\Jake\Documents\Jake's Stuff\Other\Random Programs\Smash Up Randomizer Interactable\Smash Up Randomizer\bin\Debug\Smash Up Randomizer.exe
+C:\Users\Jake\Documents\Jake's Stuff\Other\Random Programs\Smash Up Randomizer Interactable\Smash Up Randomizer\bin\Debug\Smash Up Randomizer.pdb
+C:\Users\Jake\Documents\Jake's Stuff\Other\Random Programs\Smash Up Randomizer Interactable\Smash Up Randomizer\obj\Debug\Smash Up Randomizer.csprojAssemblyReference.cache
+C:\Users\Jake\Documents\Jake's Stuff\Other\Random Programs\Smash Up Randomizer Interactable\Smash Up Randomizer\obj\Debug\Smash Up Randomizer.g.cs
+C:\Users\Jake\Documents\Jake's Stuff\Other\Random Programs\Smash Up Randomizer Interactable\Smash Up Randomizer\obj\Debug\App.g.cs
+C:\Users\Jake\Documents\Jake's Stuff\Other\Random Programs\Smash Up Randomizer Interactable\Smash Up Randomizer\obj\Debug\Smash Up Randomizer_MarkupCompile.cache
+C:\Users\Jake\Documents\Jake's Stuff\Other\Random Programs\Smash Up Randomizer Interactable\Smash Up Randomizer\obj\Debug\Smash Up Randomizer_MarkupCompile.lref
+C:\Users\Jake\Documents\Jake's Stuff\Other\Random Programs\Smash Up Randomizer Interactable\Smash Up Randomizer\obj\Debug\Smash Up Randomizer.baml
+C:\Users\Jake\Documents\Jake's Stuff\Other\Random Programs\Smash Up Randomizer Interactable\Smash Up Randomizer\obj\Debug\Smash Up Randomizer.g.resources
+C:\Users\Jake\Documents\Jake's Stuff\Other\Random Programs\Smash Up Randomizer Interactable\Smash Up Randomizer\obj\Debug\Smash_Up_Randomizer.Properties.Resources.resources
+C:\Users\Jake\Documents\Jake's Stuff\Other\Random Programs\Smash Up Randomizer Interactable\Smash Up Randomizer\obj\Debug\Smash Up Randomizer.csproj.GenerateResource.cache
+C:\Users\Jake\Documents\Jake's Stuff\Other\Random Programs\Smash Up Randomizer Interactable\Smash Up Randomizer\obj\Debug\Smash Up Randomizer.csproj.CoreCompileInputs.cache

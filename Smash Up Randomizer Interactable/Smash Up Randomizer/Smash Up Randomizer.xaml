@@ -1,0 +1,138 @@
+﻿<Window x:Class="Smash_Up_Randomizer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Smash_Up_Randomizer"
+        mc:Ignorable="d"
+        Title="Smash Up Randomizer" Height="1080" Width="1920" FontFamily="Curse Casual" FontSize="16" WindowStartupLocation="CenterScreen" WindowState="Maximized" WindowStyle="None">
+    <Window.Resources>
+        <Style x:Key="FocusedBorder" TargetType="Border">
+            <Setter Property="BorderThickness" Value="2.1"></Setter>
+            <Setter Property="BorderBrush" Value="Transparent"></Setter>
+            <Style.Triggers>
+                <Trigger Property="IsKeyboardFocusWithin" Value="True">
+                    <Setter Property="BorderBrush" Value="Black"></Setter>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style TargetType="{x:Type Button}" x:Key="ImageButtonStyle">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <ContentPresenter/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Button Style="{StaticResource ImageButtonStyle}" Click="ImageButton_Click">
+            <Image x:Name="image" VerticalAlignment="Top" Source="C:\Users\Jake\Documents\Jake's Stuff\Other\Random Programs\Smash Up Randomizer Interactable\SURBackground.bmp" Margin="0,0,0,0"/>
+        </Button>
+        <Rectangle x:Name="sheet" Fill="#438fcd" VerticalAlignment="Top" Height="500" Margin="393,182,393,0" Stroke="Black"/>
+        <!--<Rectangle x:Name="DeleteMe" HorizontalAlignment="Left" Height="337.5" Margin="473,288.5,0,0" VerticalAlignment="Top" Width="590" Stroke="Orange"></Rectangle>-->
+        <Border Style="{StaticResource FocusedBorder}">
+            <TextBlock x:Name="NumPlayerBlock1" HorizontalAlignment="Left" Margin="473.6,234.6,0,0" TextWrapping="Wrap" Text="How many people are playing?" VerticalAlignment="Top" Height="45" FontFamily="Curse Casual" FontSize="21.333" Foreground="Black"/>
+        </Border>
+        <Border Style="{StaticResource FocusedBorder}">
+            <TextBlock x:Name="FacPerBlock1" HorizontalAlignment="Left" Margin="473.6,260.4,0,0" TextWrapping="Wrap" Text="How many factions per person?" VerticalAlignment="Top" Height="47" FontFamily="Curse Casual" FontSize="21.333" Foreground="Black"/>
+        </Border>
+        <Border Style="{StaticResource FocusedBorder}">
+            <TextBlock x:Name="AllFacs1" HorizontalAlignment="Left" Margin="695.6,307.6,0,0" VerticalAlignment="Top" Text="All Expansions"/>
+        </Border>
+        <Border Style="{StaticResource FocusedBorder}">
+            <TextBlock x:Name="Fact1" HorizontalAlignment="Left" Margin="495.6,344.6,0,0"  VerticalAlignment="Top" Text="Core Set"/>
+        </Border>
+        <Border Style="{StaticResource FocusedBorder}">
+            <TextBlock x:Name="Fact2" HorizontalAlignment="Left" Margin="695.6,344.6,0,0" VerticalAlignment="Top" Text="Awesome Level 9000"/>
+        </Border>
+        <Border Style="{StaticResource FocusedBorder}">
+            <TextBlock x:Name="Fact3" HorizontalAlignment="Left" Margin="895.6,344.6,0,0" VerticalAlignment="Top" Text="Obligatory Cthulu Set"/>
+        </Border>
+        <Border Style="{StaticResource FocusedBorder}">
+            <TextBlock x:Name="Fact4" HorizontalAlignment="Left" Margin="495.6,382.6,0,0" VerticalAlignment="Top" Text="Science Fiction Double Feature"/>
+        </Border>
+        <Border Style="{StaticResource FocusedBorder}">
+            <TextBlock x:Name="Fact5" HorizontalAlignment="Left" Margin="695.6,382.6,0,0" VerticalAlignment="Top" Text="Big Geeky Box"/>
+        </Border>
+        <Border Style="{StaticResource FocusedBorder}">
+            <TextBlock x:Name="Fact6" HorizontalAlignment="Left" Margin="895.6,382.6,0,0" VerticalAlignment="Top" Text="Monster Smash"/>
+        </Border>
+        <Border Style="{StaticResource FocusedBorder}">
+            <TextBlock x:Name="Fact7" HorizontalAlignment="Left" Margin="495.6,420.6,0,0" VerticalAlignment="Top" Text="Pretty Pretty Smash Up"/>
+        </Border>
+        <Border Style="{StaticResource FocusedBorder}">
+            <TextBlock x:Name="Fact8" HorizontalAlignment="Left" Margin="695.6,420.6,0,0" VerticalAlignment="Top" Text="Smash Up: Munchkin"/>
+        </Border>
+        <Border Style="{StaticResource FocusedBorder}">
+            <TextBlock x:Name="Fact9" HorizontalAlignment="Left" Margin="895.6,420.6,0,0" VerticalAlignment="Top" Text="It's Your Fault!"/>
+        </Border>
+        <Border Style="{StaticResource FocusedBorder}">
+            <TextBlock x:Name="Fact10" HorizontalAlignment="Left" Margin="495.6,458.6,0,0" VerticalAlignment="Top" Text="Cease and Desist"/>
+        </Border>
+        <Border Style="{StaticResource FocusedBorder}">
+            <TextBlock x:Name="Fact11" HorizontalAlignment="Left" Margin="695.6,458.6,0,0" VerticalAlignment="Top" Text="What Were We Thinking?"/>
+        </Border>
+        <Border Style="{StaticResource FocusedBorder}">
+            <TextBlock x:Name="Fact12" HorizontalAlignment="Left" Margin="895.6,458.6,0,0" VerticalAlignment="Top" Text="All Stars Event Kit"/>
+        </Border>
+        <Border Style="{StaticResource FocusedBorder}">
+            <TextBlock x:Name="Fact13" HorizontalAlignment="Left" Margin="495.6,496.6,0,0" VerticalAlignment="Top" Text="Big in Japan"/>
+        </Border>
+        <Border Style="{StaticResource FocusedBorder}">
+            <TextBlock x:Name="Fact14" HorizontalAlignment="Left" Margin="695.6,496.6,0,0" VerticalAlignment="Top" Text="Sheep!"/>
+        </Border>
+        <Border Style="{StaticResource FocusedBorder}">
+            <TextBlock x:Name="Fact15" HorizontalAlignment="Left" Margin="895.6,496.6,0,0" VerticalAlignment="Top" Text="That '70s Expansion"/>
+        </Border>
+        <Border Style="{StaticResource FocusedBorder}">
+            <TextBlock x:Name="Fact16" HorizontalAlignment="Left" Margin="495.6,534.6,0,0" VerticalAlignment="Top" Text="Oops, You Did It Again"/>
+        </Border>
+        <Border Style="{StaticResource FocusedBorder}">
+            <TextBlock x:Name="Fact17" HorizontalAlignment="Left" Margin="695.6,534.6,0,0" VerticalAlignment="Top" Text="World Tour Part 1"/>
+        </Border>
+        <Border Style="{StaticResource FocusedBorder}">
+            <TextBlock x:Name="Fact18" HorizontalAlignment="Left" Margin="895.6,534.6,0,0" VerticalAlignment="Top" Text="World Tour Event Kit"/>
+        </Border>
+        <Border Style="{StaticResource FocusedBorder}">
+            <TextBlock x:Name="Fact19" HorizontalAlignment="Left" Margin="695.6,572.6,0,0" VerticalAlignment="Top" Text="World Tour Part 2"/>
+        </Border>
+        
+        <TextBlock x:Name="NumPlayerBlock" HorizontalAlignment="Left" Margin="474,234,0,0" TextWrapping="Wrap" Text="How many people are playing?" VerticalAlignment="Top" Height="45" FontFamily="Curse Casual" FontSize="21.333" Foreground="White"/>
+        <Rectangle x:Name="NumPlayerShadow" HorizontalAlignment="Left" Height="23.5" Margin="943,239,0,0" VerticalAlignment="Top" Width="120" Fill="Black" Stroke="Black" StrokeThickness="1"></Rectangle>
+        <TextBox x:Name="NumPlayer" HorizontalAlignment="Left" Height="23" Margin="941.5,237.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <!--<TextBox x:Name="NumPlayer2" HorizontalAlignment="Left" Height="23" Margin="1020,233,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.277,-0.006"/>-->
+        <Button x:Name="button" Content="Randomize" HorizontalAlignment="Left" Margin="588.5,623,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+        <Button x:Name="button1" Content="Quit" HorizontalAlignment="Left" Margin="788.5,623,0,0" VerticalAlignment="Top" Width="75" Click="button1_Click"/>
+        <Button x:Name="button2" Content="Hide" HorizontalAlignment="Left" Margin="688.5,623,0,0" VerticalAlignment="Top" Width="75" Click="button2_Click"/>
+        <Button x:Name="button3" Content="Change" HorizontalAlignment="Left" Margin="488.5,623,0,0" VerticalAlignment="Top" Width="75" Click="button3_Click"/>
+        <TextBlock x:Name="FacPerBlock" HorizontalAlignment="Left" Margin="474,260,0,0" TextWrapping="Wrap" Text="How many factions per person?" VerticalAlignment="Top" Height="47" FontFamily="Curse Casual" FontSize="21.333" Foreground="White"/>
+        <Rectangle x:Name="FacPerShadow" HorizontalAlignment="Left" Height="23.5" Margin="943,265,0,0" VerticalAlignment="Top" Width="120" Fill="Black" Stroke="Black" StrokeThickness="1"></Rectangle>
+        <TextBox x:Name="FacPer" HorizontalAlignment="Left" Height="23" Margin="941.5,263.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <CheckBox x:Name="AllFacs" Content="All Expansions" HorizontalAlignment="Left" Margin="676,309,0,0" VerticalAlignment="Top" Checked="AllFacs_Checked" BorderBrush="Black" Foreground="White" Unchecked="AllFacs_Unchecked"/>
+        <CheckBox x:Name="Fac1" Content="Core Set" HorizontalAlignment="Left" Margin="476,346,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="Black" Unchecked="Faction_Unchecked" Checked="All_Factions_Checked"/>
+        <CheckBox x:Name="Fac2" Content="Awesome Level 9000" HorizontalAlignment="Left" Margin="676,346,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="Black" Unchecked="Faction_Unchecked" Checked="All_Factions_Checked"/>
+        <CheckBox x:Name="Fac3" Content="Obligatory Cthulu Set" HorizontalAlignment="Left" Margin="876,346,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="Black" Unchecked="Faction_Unchecked" Checked="All_Factions_Checked"/>
+        <CheckBox x:Name="Fac4" Content="Science Fiction Double Feature" HorizontalAlignment="Left" Margin="476,384,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="Black" Unchecked="Faction_Unchecked" Checked="All_Factions_Checked"/>
+        <CheckBox x:Name="Fac5" Content="Big Geeky Box" HorizontalAlignment="Left" Margin="676,384,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="Black" Unchecked="Faction_Unchecked" Checked="All_Factions_Checked"/>
+        <CheckBox x:Name="Fac6" Content="Monster Smash" HorizontalAlignment="Left" Margin="876,384,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="Black" Unchecked="Faction_Unchecked" Checked="All_Factions_Checked"/>
+        <CheckBox x:Name="Fac7" Content="Pretty Pretty Smash Up" HorizontalAlignment="Left" Margin="476,422,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="Black" Unchecked="Faction_Unchecked" Checked="All_Factions_Checked"/>
+        <CheckBox x:Name="Fac8" Content="Smash Up: Munchkin" HorizontalAlignment="Left" Margin="676,422,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="Black" Unchecked="Faction_Unchecked" Checked="All_Factions_Checked"/>
+        <CheckBox x:Name="Fac9" Content="It's Your Fault!" HorizontalAlignment="Left" Margin="876,422,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="Black" Unchecked="Faction_Unchecked" Checked="All_Factions_Checked"/>
+        <CheckBox x:Name="Fac10" Content="Cease and Desist" HorizontalAlignment="Left" Margin="476,460,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="Black" Unchecked="Faction_Unchecked" Checked="All_Factions_Checked"/>
+        <CheckBox x:Name="Fac11" Content="What Were We Thinking?" HorizontalAlignment="Left" Margin="676,460,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="Black" Unchecked="Faction_Unchecked" Checked="All_Factions_Checked"/>
+        <CheckBox x:Name="Fac12" Content="All Stars Event Kit" HorizontalAlignment="Left" Margin="876,460,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="Black" Unchecked="Faction_Unchecked" Checked="All_Factions_Checked"/>
+        <CheckBox x:Name="Fac13" Content="Big in Japan" HorizontalAlignment="Left" Margin="476,498,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="Black" Unchecked="Faction_Unchecked" Checked="All_Factions_Checked"/>
+        <CheckBox x:Name="Fac14" Content="Sheep!" HorizontalAlignment="Left" Margin="676,498,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="Black" Unchecked="Faction_Unchecked" Checked="All_Factions_Checked"/>
+        <CheckBox x:Name="Fac15" Content="That '70s Expansion" HorizontalAlignment="Left" Margin="876,498,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="Black" Unchecked="Faction_Unchecked" Checked="All_Factions_Checked"/>
+        <CheckBox x:Name="Fac16" Content="Oops, You Did It Again" HorizontalAlignment="Left" Margin="476,536,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="Black" Unchecked="Faction_Unchecked" Checked="All_Factions_Checked"/>
+        <CheckBox x:Name="Fac17" Content="World Tour Part 1" HorizontalAlignment="Left" Margin="676,536,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="Black" Unchecked="Faction_Unchecked" Checked="All_Factions_Checked"/>
+        <CheckBox x:Name="Fac18" Content="World Tour Event Kit" HorizontalAlignment="Left" Margin="876,536,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="Black" Unchecked="Faction_Unchecked" Checked="All_Factions_Checked"/>
+        <CheckBox x:Name="Fac19" Content="World Tour Part 2" HorizontalAlignment="Left" Margin="676,574,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="Black" Unchecked="Faction_Unchecked" Checked="All_Factions_Checked"/>
+
+
+
+    </Grid>
+</Window>
